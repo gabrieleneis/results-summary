@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+@media (min-width:768px){
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 98vh;
+        background-color: aliceblue;
+    }
+
+    .wrap {
+        display: flex;
+        margin: 5rem;
+        border-radius: 2rem;
+        background-color: #fff;
+    }
+
+    .header {
+        border-radius: 2rem!important;
+        max-width: 250px;
+    }
+
+    .data{
+        width: 300px;
+    }
+}
